@@ -19,8 +19,9 @@
 ### •Used Express methods to make HTTP requests & parse incoming JSON data  
 ### •Created Router node modules to handle request & response routing & error handling at multiple endpoints  
 •bandRouter.js  
-### •Created Models via Mongoose ODM in order to interface with database   
-•Defined Schemas in bands.js  
+### •Used Mongoose to interface between API & database
+•Relational management & translation between API & database Objects via ODM library  
+•Created Models & defined Schemas in bands.js  
 
 # Next Steps  
 ### Authentication & Validation   
