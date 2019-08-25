@@ -1,7 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-//bandRouter is in routes folder so need to go up one level hence ../models/bands
 const Bands = require('../models/bands');
 
 //declare bandRouter as an Express Router
@@ -9,8 +8,6 @@ const bandRouter = express.Router();
 
 bandRouter.use(bodyParser.json());
 
-//route can take endpoint as a parameter
-//declare endpoint to one single location
 //note that this is the /bands endpoint
 bandRouter.route('/')
 .get((req,res,next) => {
