@@ -23,5 +23,7 @@
 ••defined Schemas in bands.js  
 
 # Next Steps  
-•Authentication   
-•Validation
+###Authentication & Validation   
+•Implement HTTPS  
+•Implement OAuth2 with JWTs & Passport  
+###React Client & Server Integration
