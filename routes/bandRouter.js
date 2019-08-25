@@ -38,7 +38,7 @@ bandRouter.route('/')
     res.statusCode = 403;
     res.end('NOT Authorized to Delete Entries at this Endpoint');
 });
-
+//bandId endpoint
 bandRouter.route('/:bandId')
 .get((req,res,next) => {
   Bands.findById(req.params.bandId)
