@@ -14,7 +14,7 @@ mongoose.set('useNewUrlParser', true);
 mongoose.set('useFindAndModify', false);
 mongoose.set('useCreateIndex', true);
 
-const Dishes = require('./models/bands');
+const bands = require('./models/bands');
 const url = 'mongodb://localhost:27017/jxea-express-mongo-bandserver';
 const connect = mongoose.connect(url);
 
