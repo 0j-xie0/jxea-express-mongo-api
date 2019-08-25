@@ -18,9 +18,9 @@
 # Tasks Performed  
 ### •Used Express methods to make HTTP requests & parse incoming JSON data  
 ### •Created Router node modules to handle request & response routing & error handling at multiple endpoints  
-••bandRouter.js  
+•bandRouter.js  
 ### •Created Models via Mongoose ODM in order to interface with database   
-••defined Schemas in bands.js  
+•Defined Schemas in bands.js  
 
 # Next Steps  
 ### Authentication & Validation   
