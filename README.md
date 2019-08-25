@@ -6,11 +6,11 @@
 •Clone this repo to your computer    
 •Open terminal and navigate to repo directory    
 •Install the required dependecies with: npm install  
-•Create directory named: mongodb  
-•Create subdirectory named: data  
 
 # Usage   
-•In a new terminal navigate to the mongodb directory    
+•From a new terminal create a directory named: mongodb  
+•Create a subdirectory named: data  
+•Navigate to the mongodb directory    
 •Start MongoDB & use data directory as db with: mongod --dbpath=data --bind_ip 127.0.0.1      
 •From the first terminal start the Express server with: npm start    
 •From an HTTP client make requests via the Express server to MongoDB to create update retrieve JSON data    
