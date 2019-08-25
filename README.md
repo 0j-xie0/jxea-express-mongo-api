@@ -4,7 +4,7 @@
 •Install NodeJS v12.x.x  
 •Install MongoDB v4.2.x  
 •Clone this repo to your computer    
-•Open terminal and navigate to repo directory    
+•Open a terminal and navigate to repo directory    
 •Install the required dependecies with: npm install  
 
 # Usage   
