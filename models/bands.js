@@ -59,7 +59,7 @@ const bandSchema = new Schema({
 },{
     timestamps: true
 });
-//every dish document can have multiple comments stored within an array
+//every band document can have multiple comments stored within an array
 
 const Bands = mongoose.model('Band', bandSchema);
 module.exports = Bands;
